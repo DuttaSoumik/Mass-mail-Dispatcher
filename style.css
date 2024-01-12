@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Set default font family, background color, and text color */
+body{
+  font-family: Arial, sans-serif;
+  background-image: url('bg-img4.jpg');
+  background-size: 100% 100%;
+  backdrop-filter: blur(5px);
+  background-repeat: repeat;
+  background-position: stretch;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+/*styling the heading*/  
+.head {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 8em;
+  height: 160px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 1pxm;
+  color:rgb(99, 114, 252);
+}
+  @media (max-width:1248px){
+    form{
+      margin-right: 5px;
+    }
+    
+     
+    
+    
+  }
+  @media (max-width:1234px){
+    #subject{
+      padding-right: initial;
+    }
+  }
+  
+  
+  /* Style the form container */
+  form {
+    max-width: 600px;
+    margin-left: 60em;
+    margin-top: 5em;
+    border-radius: 16px;
+    backdrop-filter: blur(16px);
+    border: none;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgb(75, 95, 104);
+    position: relative;
+    bottom: 50%;
+    background: transparent;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(253, 247, 247);
+    
+  }
+  
+  /* Style text inputs and text areas */
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(65, 64, 64);
+    background: rgb(252, 252, 251);
+    box-shadow:2px 2px 10px rgb(75, 95, 104);
+  }
+  
+    /* Style text inputs and text areas */
+    #subject{
+      width: 93.5%;
+      margin-bottom:-1em;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      z-index: 22;
+      position: absolute;
+      box-shadow:2px 2px 10px rgb(75, 95, 104);
+      background: rgba(187, 179, 179, 0.1);
+    }
+  
+
+#csvFile{
+  background-color: #c3c4c6;;
+  border: none;
+  margin: 0.5vh auto;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  outline: none;
+  width: 270px;
+  margin-left: 25%;
+  box-shadow:2px 2px 10px rgb(75, 95, 104);
+}
+
+#csvFile::file-selector-button{
+  /*background-color: #fdfdfd;*/
+  background: rgb(146, 160, 238);
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+#csvFile::file-selector-button:hover{
+  color: white;
+    background-color: rgb(97, 125, 185);
+  cursor: pointer;
+}
+  
+  /* Style form submit button */
+  input[type="button"] {
+    display: block;
+    position: relative; 
+    left: 200px;
+    padding: 10px;
+    box-shadow:2px 2px 10px rgb(75, 95, 104);
+    background: rgb(146, 160, 238);
+    width: 160px; 
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: #393E41;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style submit button on hover */
+  input[type="button"]:hover {
+    color: white;
+    background-color: rgb(97, 125, 185);
+    
+  }
+  
+  /* Style container for valid and invalid emails */
+  #validEmails {
+    margin-top: 1px;
+  }
+  #invalidEmails {
+    margin-top: 1px;
+    
+  } 
+  
+  /* Style paragraphs within container for valid and invalid emails */
+  #validEmails p,
+  #invalidEmails p {
+    font-weight: bold;
+    color: #f3f5f7;
+  }
+  
+  
+  /* Style divs within container for valid and invalid emails */
+  #validEmails div {
+  color: #393E41;
+  }
+  
+  #invalidEmails div {
+  color: #393E41;
+  }
+  
+  #message{
+    color:#393E41;
+  }
+  #senderEmail{
+    color:#393E41;
+  }
+  
+  /* Style text inputs and text areas */
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none !important;
+    border-color: #393d40;
+   
+  }
+  #validEmails, #invalidEmails {
+    height: 150px;
+    overflow: auto;
+  }
+  
+  h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  z-index: 12;
+  position: absolute;
+  margin-top: 23em;
+  margin-left:14em ;
+  }
+  h1 { font-size: 18px; }
+  h2 {
+  color: #888;
+  font-size: 18px;
+  }
